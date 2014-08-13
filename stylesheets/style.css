@@ -1,0 +1,70 @@
+*, *:before, *:after{
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+body{
+  background-image: url("background.jpg");
+  background-size:cover;
+}
+header h1{
+  /*background-color:red;*/
+  font-size:2em;
+  font-family:"Georgia";
+}
+ul{
+  /*background-color:blue;*/
+  font-size:1.125em;
+}
+nav ul li{
+  display:inline;
+  float:right;
+  margin: 1.125em;
+}
+article section img{
+  width:100%;
+}
+section h1{
+  font-size:3em;
+  font-family:"futura-pt";
+}
+#slogan{
+  text-align:center;
+}
+/*.cities{
+  border-radius:10px;
+  border: 2px solid;
+}*/
+.cities:hover{
+  -moz-box-shadow: 2px 0 2px  2px #ccc;
+  -webkit-box-shadow: 2px 0 2px 2px #ccc;
+  box-shadow: 2px 0 2px 2px #ccc;-
+}
+/*
+.text{
+  opacity:0;
+}*/
+/*
+#sanFrancisco{
+  background-image: url("sanfrancisco.jpg");
+  background-size:cover;
+}
+#washingtonDC{
+  background-image: url("washingtondc.jpg");
+  background-size:cover;
+}
+#hollywood{
+  background-image: url("hollywood.jpg");
+  background-size:cover;
+}
+#seattle{
+  background-image: url("seattle.jpg");
+  background-size:cover;
+}
+#nyc{
+  background-image: url("nyc.jpg");
+  background-size:cover;
+}
+#philadelphia{
+  background-image: url("philadelphia.jpg");
+  background-size:cover;
+}
+*/
